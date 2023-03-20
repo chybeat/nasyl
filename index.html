@@ -2,10 +2,10 @@
 <html lang="es">
 
 <head>
-
 	<!--
-	<base href="https://yardsale.web.chy">
-	-->
+	<base href="//chybeat.github.io/nasyl/">
+-->
+	<!-- Page Metadata and identity-->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,64 +22,277 @@
 	<meta name="robots" content="index,follow">
 	<meta name="subject" content="Portafolio de servicios de Nasyl S.A.S.">
 	<meta name="title" content="Nasyl | Home Page">
+	<title>Nasyl | Home Page</title>
+	<link rel="me" href="//www.github.com/chybeat" type="text/html">
+	<link rel="canonical" href="//chybeat.github.io/nasyl/">
+	<link rel="author" href="//chybeat.github.io/nasyl/humans.txt">
+	<link rel="license" href="//chybeat.github.io/nasyl/copyright.html">
 
-
-	<link rel="me" href="https://www.github.com/chybeat" type="text/html">
-	<!--	Elementos que se deben cambiar cuando esté lista la página
-	<link rel="canonical" href="https://yardsale.web.chy">
-	<link rel="author" href="https://yardsale.web.chy/humans.txt">
-	<link rel="license" href="https://yardsale.web.chy/copyright">
--->
+	<!-- FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" href="//fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" as="style"
+		onload="this.onload=null;this.rel='stylesheet'">
 
 	<!--
-Elemento de cambio al finalizar el diseño
-	<meta name="theme-color" content="#000">
--->
-
-
-	<!--FONTS
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="preload"
-			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto:wght@700&display=swap"
-			as="style" onload="this.onload=null;this.rel='stylesheet'">
+		Elemento de cambio al finalizar el diseño
+		<meta name="theme-color" content="#000">
 		-->
 
-	<!-- FAVICON
-			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-			<link rel="manifest" href="/site.webmanifest">
-			<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-			<meta name="msapplication - TileColor" content="#acd9b2">
-		-->
+	<!-- FAVICON -->
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6da42b">
+	<meta name="apple-mobile-web-app-title" content="Nasyl Homepage">
+	<meta name="application-name" content="Nasyl Homepage">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="theme-color" content="#6da42b">
+
+	<!-- Styles Nasyl -->
 	<link rel="stylesheet" media="all" type="text/css" href="./css/nasyl.css">
-	<script defer type="text/javascript" src="./js/nasyl.js"></script>
-	<title>Nasyl | Home Page</title>
 
+	<!-- Functionality Nasyl -->
+	<script type="text/javascript" src="./js/nasyl.js"></script>
 
+	<!--
+		***********
+		* PLUGINS *
+		***********
+	-->
+	<!-- toggleSidebar //github.com/chybeat/togglesidebar -->
+	<script defer type="text/javascript" src="./js/toggleSidebar.min.js"></script>
 
-
+	<!-- SWIPPER js //swiperjs.com/ -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script defer src="//cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-	<header>
-		<img src="./assets/nasyl-logo.png" alt="logo" width="153" height="48">
+	<header id="main-header">
+
+		<a href="/#inicio"><img src="./assets/nasyl-logo.png" alt="logo" width="154" height="48"></a>
 		<nav>
-			<ul>
-				<li><i class="icon-nasyl"></i><span class="nav-item__text">nosotros</span></li>
-				<li><i class="icon-about"></i><span class="nav-item__text">servicios</span></li>
-				<li><i class="icon-portfolio"></i><span class="nav-item__text">portafolio</span></li>
-				<li><i class="icon-contact"></i><span class="nav-item__text">contacto</span></li>
+			<ul id="main-menu" class="sidebar-container">
+				<li><a href="#nosotros"><i class="icon-nasyl"></i><span class="nav-item__text">nosotros</span></a></li>
+				<li><a href="#servicios"><i class="icon-about"></i><span class="nav-item__text">servicios</span></a></li>
+				<li><a href="#portafolio"><i class="icon-portfolio"></i><span class="nav-item__text">portafolio</span></a>
+				</li>
+				<li><a href="#contacto"><i class="icon-contact"></i><span class="nav-item__text">contacto</span></a></li>
+				<i class="icon-close"></i>
 			</ul>
-			<i class="icon-menu"></i><i class="icon-close"></i>
+			<a href="#contacto"><i class="icon-contact"></i><span class="nav-item__text"></span></a>
+			<i class="icon-menu"></i>
 		</nav>
 	</header>
 	<main>
+		<section id="slider" class="swiper">
+			<!-- Slider main container -->
 
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<div class="swiper-slide ">
+					<img src="./assets/slider-content/slider-acoustics-isolation.jpg" alt="aislamiento acústico">
+					<h2 class="swiper-slide_text__blue swiper-slide_text-pos__bottom">aislamiento<br> acústico</h2>
+				</div>
+				<div class="swiper-slide">
+					<!-- <video muted>
+						<source src="//drive.google.com/uc?export=download&id=1FW55-cuDoYZI9mDiXvxc62pHczZ0yP2D">
+					</video> -->
+					<video muted
+						src="./assets/slider-content/slider-video-abstract-4027-by-Reimund-bertrams-from-pixabay.mp4"></video>
+					<h2 class="swiper-slide_text__green swiper-slide_text-pos__top">análisis<br> acústico</h2>
+				</div>
+				<div class="swiper-slide">
+					<img src="./assets/slider-content/slider-construction.jpg" alt="obra civil y construccion">
+					<h2 class="swiper-slide_text__blue swiper-slide_text-pos__bottom">obra civil<br>y construcción</h2>
+				</div>
+
+				<div class="swiper-slide">
+					<video src="./assets/slider-content/slider-video-sound-waves-13767-by-Dieter-from-pixabay.mp4"
+						muted></video>
+					<h2 class="swiper-slide_text__green swiper-slide_text-pos__top">medición y control<br>de vibraciones
+					</h2>
+				</div>
+				<div class="swiper-slide">
+					<img src="./assets/slider-content/slider-image-cowork.jpg" alt="obra civil y construccion">
+					<h2 class="swiper-slide_text__blue swiper-slide_text-pos__bottom">soluciones integrales<br>de ingeniería
+					</h2>
+				</div>
+
+			</div>
+			<!-- If we need pagination -->
+			<div class="swiper-pagination"></div>
+
+			<!-- If we need navigation buttons -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</section>
+		<section id="about-nasyl">
+			<article id="nosotros">
+				<img src="./assets/descripcion-measures.svg">
+				<h2>Somos NASYL</h2>
+				<div id="mision">
+					<img src="./assets/descripcion-mision.svg" alt="visión de nasyl s.a.s.">
+					<p>Desarrollamos proyectos rentables y sostenibles aportando soluciones integrales en ingeniería.</p>
+				</div>
+				<div id="vision">
+					<img src="./assets/descripcion-vision.svg" alt="misión de nasyl s.a.s.">
+					<p>Realizamos mantenimiento predictivo, preventivo y correctivo de maquinaria rotacional y reciprocante,
+						control de ruido y vibraciones, diseño acústico entre otros acorde a las tendencias y requerimientos
+						del mercado.</p>
+				</div>
+			</article>
+			<article id="servicios">
+				<div class="servicios-card">
+					<h3><i class="icon-leave"></i>mantenimiento</h3>
+					<div class="servicios-image">
+						<img src="./assets/servicio-mantenimiento.jpg" alt="serivcio de mantenimiento" width="328"
+							height="220">
+						<p>El mantenimiento planificado incrementa la productividad en 25%, reduce costes hasta por el 30% y
+							alarga la vida útil de la maquinaria en hasta un 50%</p>
+					</div>
+				</div>
+				<div class="servicios-card">
+					<h3><i class="icon-leave"></i>obra civil</h3>
+					<div class="servicios-image">
+						<img src="./assets/servicio-obra-civil.jpg" alt="trabajos de obra civil" width="328" height="220">
+						<p>Desarrollamos estudios y diseños de ingeniería conceptual, básica y detallada en base a los
+							requerimientos del trabajo</p>
+					</div>
+				</div>
+				<div class="servicios-card">
+					<h3><i class="icon-leave"></i>control de ruido</h3>
+					<div class="servicios-image">
+						<img src="./assets/servicio-control-de-ruido.jpg" alt="Análisis de control de ruido industrial"
+							width="328" height="220">
+						<p>Soluciones para reducir los niveles de ruido y vibraciones emitidos por maquinaria acorde a las
+							normativas en México y Colombia
+						</p>
+					</div>
+				</div>
+				<div class="servicios-card">
+					<h3><i class="icon-leave"></i>diseño acústico</h3>
+					<div class="servicios-image">
+						<img src="./assets/servicio-diseno-acustico.jpg" alt="Ingeniería para diseño acústico" width="328"
+							height="220">
+						<p>Creamos alternativas acústicas con información numérica y auditiva para teatros, estudios de
+							grabación, oficinas, home cinemas y edificios entre otros</p>
+					</div>
+				</div>
+				<div class="servicios-card other-services">
+					<h3><i class="icon-leave"></i>y más...</h3>
+					<p> Realizamos consultoría, intervenetoría y aseoría en proyectos para los campos legales, financieros,
+						juridicos o ingenirles. Ejecutamos, gerenciamos y realizamos la logística de los proyectos cumpliendo
+						todas las espectativas y metodologías requeridas.
+					</p>
+				</div>
+			</article>
+			<article id="portafolio">
+				<h2>nuestro portafolio</h2>
+				<p>Conoce a profundidad todos los servicios que prestamos con nuestro portafolio</p>
+				<img src="/assets/logo-pdf.svg" alt="portafolio en formato pdf" width="104" height="128">
+				<a href="./assets/NASYL-portafolio-de-servicios.pdf" class="button" target="_blank">descargar</a>
+			</article>
+			<article id="partners">
+				<h2>partners</h2>
+				<div id="partners-container">
+					<i title="Massage & SPA | Natural SPA" alt="logo de empresa massage spa" class="logo-massage-spa">logo
+						massage spa</i>
+					<i title="Yoga | Create balance" alt="logo de empresa yoga" class="logo-yoga">logo yoga</i>
+					<i title="Aaudii" alt="logo de empresa aaudii" class="logo-aaudii">logo aaudii</i>
+					<i title="Bicycle Shop" alt="logo de empresa bicycle" class="logo-bicycle">logo bicycle</i>
+					<i title="waves" alt=" logo de empresa waves" class="logo-waves">logo waves</i>
+					<i title="The Garden" alt="logo de empresa the garden" class="logo-the-garden">logo the garden</i>
+					<i title="Cubic" alt=" logo de empresa cubic" class="logo-cubic">logo cubic</i>
+					<i title="Amazing" alt=" logo de empresa amazing" class="logo-amazing">logo amazing</i>
+					<i title="Organic Product" alt=" logo de empresa organic" class="logo-organic">logo organic</i>
+				</div>
+			</article>
+		</section>
+		<section id="contacto">
+			<h2>contáctanos</h2>
+			<form action="./contact.php" autocomplete="off" method="post">
+				<input type="text" name="contact-nasyl-name" autocomplete="off" placeholder="*Tu nombre" required>
+				<input type="email" name="contact-nasyl-email" autocomplete="off" placeholder="*Tu E-mail" required>
+				<input type="tel" name="contact-nasyl-mobile" autocomplete="off" placeholder="*Tu número telefónico"
+					required>
+				<input type="text" name="contact-nasyl-address" autocomplete="off"
+					placeholder="Tu dirección de correspondencia">
+				<textarea cols="30" rows="10" name="contact-nasyl-message" autocomplete="off" placeholder="Tu mensaje"
+					required></textarea>
+				<p class="advert">*Campos requerido</p>
+				<input type="hidden" name="origin" value="contact-form-home-page">
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
 	</main>
 	<footer>
-
+		<section id="contact-info">
+			<h2>datos de contacto</h2>
+			<article id="direct-contact">
+				<ul>
+					<li><span class="city">Bogotá:</span> <span class="phone-number">+57 601 6630495
+						</span></li>
+					<li><span class="city">Medellín</span> <span class="phone-number">+57 604 4942329
+						</span></li>
+					<li><span class="city">México D.F:</span> <span class="phone-number">+52 55 57542161</span></li>
+					<li><span class="email"></span></li>
+				</ul>
+			</article>
+			<article id="social-networks">
+				<a target="_blank" href="//linkedin.com" rel="noopener noreferrer"
+					title="visita nuestra página en linkedin"><i class="icon-linkedin"></i></a>
+				<a target="_blank" href="//facebook.com" rel="noopener noreferrer"
+					title="visita nuestra página en facebook"><i class="icon-facebook"></i></a>
+				<a target="_blank" href="//instagram.com" rel="noopener noreferrer"
+					title="visita nuestra página en instagram"><i class="icon-instagram"></i></a>
+			</article>
+		</section>
+		<section id="copyright-data">
+			<article>
+				<p>Página de entrenamiento | &copy; <span id="copyright-year">2023</span></p>
+			</article>
+			<article>
+				<h2>agradecimientos</h2>
+				<ul>
+					<li><i class="icon-leave"></i><a target="_blank" rel="noopener noreferrer" href="//nasyl.co">NASYL</a>
+						por su portafolio de
+						servicios que
+						inspiró este proyecto</li>
+					<li><i class="icon-leave"></i><a target="_blank" rel="noopener noreferrer" href="//svgrepo.com">SVG
+							REPO</a> por los iconos
+					</li>
+					<li><i class="icon-leave"></i>Video by <a target="_blank" rel="noopener noreferrer"
+							href="//pixabay.com/users/dieter_g-359839/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=13767">Dieter</a>
+						from <a target="_blank" rel="noopener noreferrer"
+							href="//pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=13767">Pixabay</a>
+					</li>
+					<li><i class="icon-leave"></i>Video by <a target="_blank" rel="noopener noreferrer"
+							href="//pixabay.com/users/8385-8385/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=4027">Reimund
+							Bertrams</a> from <a target="_blank" rel="noopener noreferrer"
+							href="//pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=4027">Pixabay</a>
+					</li>
+					<li><i class="icon-leave"></i><a target="_blank" rel="noopener noreferrer"
+							href="//www.freepik.com/free-vector/collection-logo-badge-vectors_3386391.htm#query=logo&position=3&from_view=keyword&track=sph">Image
+							by rawpixel.com</a> on Freepik</li>
+					<li><i class="icon-leave"></i>Images from <a target="_blank" rel="noopener noreferrer"
+							href="//www.freepik.com/free-vector/fantastic-company-logos-with-geometric-shapes_1000265.htm#query=logo&position=25&from_view=keyword&track=sph">Freepik.com</a>
+					</li>
+					<li><i class="icon-leave"></i>Images from <a target="_blank" rel="noopener noreferrer"
+							href="//pexels.com">Pexels</a></li>
+				</ul>
+			</article>
+			<article>
+				<h2>equipo y licencia</h2>
+				<a href="./humans.txt" target="_blank"><img src="./assets/humanstxt-org.svg" alt="logo humans text file"
+						width="144" height="40"></a>
+				<a href="//creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer"><img
+						src="./assets/creative-commons-by-sa.svg" alt="logo humans text file" width="114" height="40"></a>
+			</article>
+		</section>
 	</footer>
 </body>
 

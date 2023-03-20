@@ -1,0 +1,42 @@
+/* TEAM */
+	Chef and Web Developer: AlejaES (Alejandra Espinoza)
+	Contact: https://co.linkedin.com/in/alejandraespinosaj | ALEJA#2408 (Discord) 
+	github: https://github.com/alejaES
+	From: Bogotá, Colombia
+
+	Web developer: ChyBeat (Andrés Salzar)
+	Contact: ChyBeat#9130 (Discord) | @chybeat (telegram)
+	github: https://github.com/chybeat
+	From: Bogotá, Colombia
+
+	Web UI/UX Designer: Fabio Zambrano
+	Contact: Chefabio#5650 (Discord)
+	From: Bogotá, Colombia
+
+/* THANKS */
+
+Icons vector from:
+	https:// www.svgrepo.com | Some icons
+
+Videos from:
+	Video by Dieter from https://pixabay.com/
+	https://pixabay.com/users/dieter_g-359839/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_content=13767
+
+	Video by Reimund Bertrams from https://pixabay.com
+	https://pixabay.com/users/8385-8385/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_content=4027
+
+Some Images
+	https://www.pexels.com | 
+
+
+Dummy Logos by rawpixel.com on Freepik
+	https://www.freepik.com/free-vector/collection-logo-badge-vectors_3386391.htm
+	https://www.freepik.com/free-vector/logo-collection-wedding-florist_5072781.htm
+	https://www.freepik.com/free-vector/fantastic-company-logos-with-geometric-shapes_1000265.htm
+
+
+/* SITE */
+	Last update:2023/03/14
+	Language: Spanish
+	Doctype:HTML5
+	IDE: Visual Studio Code, InkScape, Google Chrome Dev, GIMP
